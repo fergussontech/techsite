@@ -1,0 +1,37 @@
+html{
+    height: 100vh;
+    overflow: hidden;
+}
+
+body{
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", 
+    Helvetica, Arial, "Lucida Grande", sans-serif;
+    color: #000001;
+    background-color: #f8f4ec;
+    /*
+    background: radial-gradient(#fdf9f1, #f8f4ec);
+    background-size: 100% 200%;
+    background-position: 0% 50%;
+    background-attachment: fixed;
+    */
+    margin: 75px 0 0 0;
+    min-height: 100vh;
+}
+
+.demo-colors{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 10;
+}
+
+.poop{
+    background-color: #eb582f;
+    background-color: #d74a5d;
+    background-color: #ca5e97;
+    background-color: #4a4169;
+    background-color: #f2a878;
+}
